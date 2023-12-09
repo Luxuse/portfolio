@@ -1,0 +1,141 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #f9f9f9; /* Couleur de fond générale */
+    color: #333; /* Couleur du texte par défaut */
+}
+
+header {
+    background-color: #fff;
+    text-align: center;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.nav {
+    color: #3498db; /* Couleur du texte du logo */
+    font-size: 24px;
+    font-weight: bold;
+    margin-right: 20px;
+}
+
+.nav-links li {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #333; /* Couleur du texte de la barre de navigation */
+    font-size: 16px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    background-color: #3498db; /* Couleur de fond des liens */
+    transition: background-color 0.3s ease;
+}
+
+.nav-links a:hover {
+    background-color: #2980b9; /* Nouvelle couleur de fond au survol */
+}
+
+.corp {
+    text-align: center;
+    margin-top: 80px;
+    background-color: #fff; /* Couleur de fond pour la section corp */
+    padding: 20px;
+}
+
+.sous-titre {
+    text-align: center;
+    color: #3498db; /* Couleur du texte du sous-titre */
+}
+
+.head {
+    text-align: center;
+    background-color: #3498db; /* Couleur de fond pour la section head */
+    padding: 20px;
+    color: #fff; /* Couleur du texte dans la section head */
+}
+
+.offres {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 70px;
+}
+
+.offre-box {
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    width: 200px;
+    overflow: hidden;
+    position: relative;
+    transition: background-color 0.3s ease;
+}
+
+.offre-box:hover {
+    background-color: #f0f0f0;
+}
+
+.offre-bouton {
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-decoration: none;
+    display: inline-block;
+}
+
+.offre-bouton:hover {
+    background-color: #2980b9;
+}
+
+.sections-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 70px;
+}
+
+.C1 {
+    text-align: center;
+    padding: 50px;
+    border: 1px solid #b1aeae;
+    border-radius: 8px;
+    width: 200px;
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 20px;
+    background-color: #ffffff; /* Couleur de fond pour la section C1 */
+    transition: background-color 0.3s ease;
+color: #333;
+}
+
+.C1 h5 {
+    margin-bottom: 10px;
+}
+
+.C1B {
+    display: inline-block;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    padding: 8px 13px;
+    margin-top: 10px;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.C1B:hover {
+    background-color: #2980b9;
+}
